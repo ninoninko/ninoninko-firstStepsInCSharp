@@ -1,0 +1,16 @@
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.exe
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.deps.json
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.runtimeconfig.json
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.runtimeconfig.dev.json
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.dll
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\ref\MultipleTasks.dll
+D:\C#\MultipleTasks\MultipleTasks\bin\Debug\net5.0\MultipleTasks.pdb
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.AssemblyInfoInputs.cache
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.AssemblyInfo.cs
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.csproj.CoreCompileInputs.cache
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.dll
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\ref\MultipleTasks.dll
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.pdb
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.genruntimeconfig.cache
+D:\C#\MultipleTasks\MultipleTasks\obj\Debug\net5.0\MultipleTasks.csproj.AssemblyReference.cache
