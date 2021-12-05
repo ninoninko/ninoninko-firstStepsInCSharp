@@ -8,14 +8,18 @@ namespace MultipleTasks
 {
     internal class Methods
     {
+
+        /// <summary>
+        /// The following method contains the main idea
+        /// of the program.It makes calls to the separates
+        /// subtasks of the program.
+        /// </summary>
         public static void executionMethod()
         {
             Console.WriteLine("Dear user, please pick a number between 7 and 10." +
                 "\nPlease pick 0 if you wish to cancel the execution of this program");
             string choicer = Console.ReadLine();
             int choice = 0;
-
-
 
             while (!((int.TryParse(choicer, out choice)) && (choice >= 7 && choice <= 10 || choice == 0)))
             {
@@ -49,6 +53,12 @@ namespace MultipleTasks
             }
         }
 
+        /// <summary>
+        /// The following method gets a text from the user
+        /// and tries to parse it to an integer number.
+        /// </summary>
+        /// <returns> the number which has been inputted </returns>
+
         public static int getNumber()
         {
             string input = Console.ReadLine();
@@ -63,6 +73,12 @@ namespace MultipleTasks
             return number;
         }
 
+        /// <summary>
+        /// The following method gets an array of doubles as a
+        /// string from the user and takes only the number 
+        /// entries from it.
+        /// </summary>
+        /// <returns> the array as an array of doubles </returns>
         public static double[] getArrayFromString()
         {
             Console.WriteLine("Dear user, please input the array as a string. Separate them in" +
@@ -77,6 +93,12 @@ namespace MultipleTasks
             return arrayAsIntegers;
         }
 
+        /// <summary>
+        /// The following method gets an array of ints as a
+        /// string from the user and takes only the number 
+        /// entries from it.
+        /// </summary>
+        /// <returns> the array as an array of ints </returns>
         public static int[] getArrayFromStringInt()
         {
             Console.WriteLine("Dear user, please input the array as a string. Separate them in" +
