@@ -11,12 +11,6 @@ namespace MultipleTasks
         public static void goToProgram7()
         {
 
-            Console.WriteLine("Dear user, program 7 will be a simple train program. " +
-                "\nYou will input the number of cabins that the train has." +
-                "\nThen you will input the number of passengers for each cabin.");
-
-            Console.WriteLine("How many cabins does the train have?");
-
             int numberCabins = Methods.getNumber();
 
             int[] passengers = new int[numberCabins];

@@ -10,11 +10,6 @@ namespace MultipleTasks
     {
         public static void goToProgram9()
         {
-            Console.WriteLine("Dear user, this will be a more interesting program." +
-                "\nYou are asked to input an array of numbers and the program" +
-                "\nwill return the index of the element the sums of the elements " +
-                "\non its left and its right are equal." +
-                "\n");
 
             double[] arrayAsIntegers = Methods.getArrayFromString();
             double sumLeft = 0;

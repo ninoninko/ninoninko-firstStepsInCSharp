@@ -11,10 +11,6 @@ namespace MultipleTasks
         public static void goToProgram6()
         {
 
-            Console.WriteLine("Dear user, in the following program you are" +
-                "\nasked to input two arrays of type in and the" +
-                "\nprogram will tell you if they are one of the same thing.");
-
             int[] firstArray = Methods.getArrayFromStringInt();
             int[] secondArray = Methods.getArrayFromStringInt();
             bool checker = true;
@@ -39,8 +35,6 @@ namespace MultipleTasks
             {
                 Console.WriteLine("The two arrays are of equal elemets. The sum of the elements in one is: " + firstArray.Sum());
             }
-
-
 
             Console.WriteLine("Dear user, we will refer you back to the initial screen." +
                  "\nThank you for choosing number 6!");

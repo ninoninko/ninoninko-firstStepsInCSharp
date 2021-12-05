@@ -10,10 +10,6 @@ namespace MultipleTasks
     {
         public static void goToProgram8()
         {
-            Console.WriteLine("Dear user, in the following program we will be making a wheel." +
-                "\nFor that matter we will ask you to input a string and the number of times" +
-                "\nthat you will want it to be rotated." +
-                "\n\nHow many time is the array going to be rotated");
 
             int numberOfTimes = Methods.getNumber();
 

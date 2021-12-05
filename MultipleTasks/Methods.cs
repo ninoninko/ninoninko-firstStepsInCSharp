@@ -39,18 +39,23 @@ namespace MultipleTasks
             switch (choice)
             {
                 case 6:
+                    EntryTexts.description6();
                     Task6.goToProgram6();
                     break;
                 case 7:
+                    EntryTexts.description7();
                     Task7.goToProgram7();
                     break;
                 case 8:
+                    EntryTexts.description8();
                     Task8.goToProgram8();
                     break;
                 case 9:
+                    EntryTexts.description9();
                     Task9.goToProgram9();
                     break;
                 case 10:
+                    EntryTexts.description10();
                     Task10.goToProgram10();
                     break;
             }

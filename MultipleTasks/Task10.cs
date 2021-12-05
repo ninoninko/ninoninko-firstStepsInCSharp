@@ -10,10 +10,6 @@ namespace MultipleTasks
     {
         public static void goToProgram10()
         {
-            Console.WriteLine("Dear user, in the following program you are asked" +
-                "\nto input an array and the program will print the leftmost " +
-                "\nlongest encounter of the same symbols. The arrays must be" +
-                "\nstoring ONLY integer values");
 
             int[] arrayAsInt = Methods.getArrayFromStringInt();
 
