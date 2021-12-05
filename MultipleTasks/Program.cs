@@ -8,6 +8,7 @@ namespace MultipleTasks
         static void Main(string[] args)
         {
 
+            // Calls the control method from the "executionMethod class".
             Methods.executionMethod();
 
         }

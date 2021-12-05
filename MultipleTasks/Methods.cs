@@ -16,15 +16,15 @@ namespace MultipleTasks
         /// </summary>
         public static void executionMethod()
         {
-            Console.WriteLine("Dear user, please pick a number between 7 and 10." +
+            Console.WriteLine("Dear user, please pick a number between 6 and 10." +
                 "\nPlease pick 0 if you wish to cancel the execution of this program");
             string choicer = Console.ReadLine();
             int choice = 0;
 
-            while (!((int.TryParse(choicer, out choice)) && (choice >= 7 && choice <= 10 || choice == 0)))
+            while (!((int.TryParse(choicer, out choice)) && (choice >= 6 && choice <= 10 || choice == 0)))
             {
 
-                Console.WriteLine("Dear user, please input a number between 7 and 10. Don't be gay");
+                Console.WriteLine("Dear user, please input a number between 6 and 10. Don't be gay");
                 choicer = Console.ReadLine();
 
                 if (int.TryParse(choicer, out choice) == true && choice == 0)
@@ -38,6 +38,9 @@ namespace MultipleTasks
 
             switch (choice)
             {
+                case 6:
+                    Task6.goToProgram6();
+                    break;
                 case 7:
                     Task7.goToProgram7();
                     break;
